@@ -370,7 +370,7 @@ public class MainActivity extends Activity {
                     }
                 }), null, true);
         root.addView(behave, lp(-1, -2, 0));
-        sectionFooter(root, "Each number gets at most one reply every 30 minutes.");
+        sectionFooter(root, "A text is sent every time someone calls.");
 
         // Setup
         sectionHeader(root, "Setup");
