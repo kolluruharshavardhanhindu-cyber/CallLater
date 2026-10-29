@@ -21,7 +21,7 @@ final class Replier {
     private static final String TAG = "CallLater";
     private static final String SENT_LOG = "sent_log";
     /** Do not text the same number again within this window (people redial). */
-    static final long COOLDOWN_MS = 30L * 60L * 1000L;
+   static final long COOLDOWN_MS = 20L * 1000L;
 
     static final int SKIPPED = 0;  // nothing sent (not handled)
     static final int SENT = 1;     // SMS submitted now
